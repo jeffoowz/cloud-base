@@ -10,7 +10,7 @@ export const ServicesContainer = styled.div` height: 800px;
     height: 1100px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1200px;
   }`
 
 export const ServicesWrapper = styled.div` max-width: 1009px;

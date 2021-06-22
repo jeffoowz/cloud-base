@@ -31,7 +31,9 @@ export const Icon = styled.div`
   outline: none;
 `
 export const SidebarWrapper = styled.div`
-  color: #fff;`
+  color: #fff;
+`
+
 export const SidebarLink = styled(LinkS)` 
   display: flex;
   align-items: center;
@@ -40,7 +42,6 @@ export const SidebarLink = styled(LinkS)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  text-decoration: none;
   color: #fff;
   cursor: pointer;
 
