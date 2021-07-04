@@ -1,8 +1,8 @@
 import React from 'react';
 import {ServicesContainer, ServicesIcon, ServicesCard, ServicesH1, ServicesH2, ServicesP, ServicesWrapper} from './ServicesElements'
-import Icon1 from '../../images/feedback.svg'
-import Icon2 from '../../images/growth_analytics.svg'
-import Icon3 from '../../images/search.svg'
+import Icon1 from '../../images/two_factor_auth.svg'
+import Icon2 from '../../images/safety.svg'
+import Icon3 from '../../images/push_noti.svg'
 
 const Services = () => {
     return (
@@ -12,17 +12,17 @@ const Services = () => {
     <ServicesWrapper>
         <ServicesCard>
             <ServicesIcon src={Icon1}/>
-            <ServicesH2>Reduce Expenses</ServicesH2>
-            <ServicesP>No Extra Commission Fee is Charged</ServicesP>
+            <ServicesH2>Multi Platform Support</ServicesH2>
+            <ServicesP>Android, IOS, Web are supported</ServicesP>
         </ServicesCard>
         <ServicesCard>
             <ServicesIcon src={Icon2}/>
-            <ServicesH2>Virtual Offices</ServicesH2>
-            <ServicesP>Accessible in Any Countries</ServicesP>
+            <ServicesH2>Data Encryption</ServicesH2>
+            <ServicesP>All documents in the server are Encrypted.</ServicesP>
         </ServicesCard>
         <ServicesCard>
             <ServicesIcon src={Icon3}/>
-            <ServicesH2>Reporting</ServicesH2>
+            <ServicesH2>Notification</ServicesH2>
             <ServicesP>Generate Daily Report for All Users</ServicesP>
         </ServicesCard>
     </ServicesWrapper>

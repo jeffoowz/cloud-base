@@ -39,7 +39,7 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{color: '#fff'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={toggleHome}>InstaTrade</NavLogo>
+                        <NavLogo to="/" onClick={toggleHome}>CloudBase</NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars/>
                         </MobileIcon>
@@ -66,7 +66,7 @@ const Navbar = ({toggle}) => {
                                           duration={500}
                                           spy={true}
                                           exact='true'
-                                          offset={-80}>Services</NavLinks>
+                                          offset={-50}>Services</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="pricing"
@@ -74,7 +74,7 @@ const Navbar = ({toggle}) => {
                                           duration={500}
                                           spy={true}
                                           exact='true'
-                                          offset={-80}>Pricing</NavLinks>
+                                          offset={-50}>Pricing</NavLinks>
                             </NavItem>
                             <NavBtn>
                                 <NavBtnLink to="signin"

@@ -1,7 +1,7 @@
-import wallet from '../../images/wallet.svg'
-import digital_currency from '../../images/digital_currency.svg'
-import invest from '../../images/investing.svg'
-import financial from '../../images/financial.svg'
+import version_control from '../../images/version_control.svg'
+import usage_analytics from '../../images/usage_analytics.svg'
+import server_security from '../../images/server_security.svg'
+
 
 
 export const homeObjOne = {
@@ -10,11 +10,11 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Premium Bank',
-    headline: 'Big Data Analyses Assisting Investment Decisions',
-    description: 'Various features include brokerage position tracking, stock indicator analysis, smart stock tracking, stock screener tools, K-line trends, and big data applications.',
+    headline: 'One Account, Access Anywhere',
+    description: 'Store, share, and collaborate on files and folders from any mobile device, tablet, or computer\n',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: wallet,
+    img: version_control,
     alt: 'Financial',
     dark: true,
     primary: true,
@@ -27,11 +27,11 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'No Extra Charges',
-    headline: 'Unlimited Transactions with Zero Fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+    headline: 'Pay As You Download',
+    description: 'Free uploading service are provided. We only charged for downloading traffic.',
     buttonLabel: 'Get started',
     imgStart: true,
-    img: digital_currency,
+    img: usage_analytics,
     alt: 'Financial',
     dark: true,
     primary: true,
@@ -43,12 +43,12 @@ export const homeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
-    topLine: 'Up-To-Date News',
-    headline: 'Professional Financial News and Information with Instant Updates 24/7',
-    description: 'Global financial news and analyses of stock price fluctuations help investors closely monitor stock market trends.',
+    topLine: '24/7 Technical Support',
+    headline: 'Professional Security Advice and Information',
+    description: 'Help your team move faster with a secure cloud-based collaboration platform that makes it easy for you to share, store, and access files.',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: financial,
+    img: server_security,
     alt: 'Financial',
     dark: true,
     primary: true,
