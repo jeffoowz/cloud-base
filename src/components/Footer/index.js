@@ -77,8 +77,8 @@ const Footer = () => {
                 </Grid>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/" onClick={toggleHome}> InstaTrade </SocialLogo>
-                        <WebsiteRights>InstaTrade {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
+                        <SocialLogo to="/" onClick={toggleHome}> CloudBase </SocialLogo>
+                        <WebsiteRights>CloudBase {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                                 <FaFacebook/>
