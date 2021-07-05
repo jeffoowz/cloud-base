@@ -49,7 +49,7 @@ const footers = [
         description: ['Privacy policy', 'Terms of use'],
     },
 ];
-const Footer = () => {
+const Footer = ({title}) => {
     const classes = useStyles();
     const toggleHome = () => {
         scroll.scrollToTop()
@@ -77,8 +77,8 @@ const Footer = () => {
                 </Grid>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/" onClick={toggleHome}> CloudBase </SocialLogo>
-                        <WebsiteRights>CloudBase {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
+                        <SocialLogo to="/" onClick={toggleHome}> {title} </SocialLogo>
+                        <WebsiteRights>{title} {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                                 <FaFacebook/>

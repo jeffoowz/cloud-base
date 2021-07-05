@@ -11,6 +11,7 @@ import Pricing from "../components/Pricing/Pricing";
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const companyName = 'CloudBase'
 
     const toggle = () => {
         setIsOpen(!isOpen)
@@ -20,14 +21,14 @@ const Home = () => {
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>
+            <Navbar title={companyName} toggle={toggle}/>
             <HeroSection/>
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
             <Services/>
             <Pricing/>
             <InfoSection {...homeObjThree}/>
-            <Footer/>
+            <Footer title={companyName}/>
         </>
     );
 };

@@ -15,7 +15,7 @@ import {
 } from "./NavbarElements";
 
 
-const Navbar = ({toggle}) => {
+const Navbar = ({toggle, title}) => {
     const [scrollNav, setScrollNav] = useState(false)
 
     const changeNav = () => {
@@ -39,7 +39,7 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{color: '#fff'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={toggleHome}>CloudBase</NavLogo>
+                        <NavLogo to="/" onClick={toggleHome}>{title}</NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars/>
                         </MobileIcon>
@@ -66,7 +66,7 @@ const Navbar = ({toggle}) => {
                                           duration={500}
                                           spy={true}
                                           exact='true'
-                                          offset={-50}>Services</NavLinks>
+                                          offset={-80}>Services</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="pricing"
@@ -74,7 +74,7 @@ const Navbar = ({toggle}) => {
                                           duration={500}
                                           spy={true}
                                           exact='true'
-                                          offset={-50}>Pricing</NavLinks>
+                                          offset={-80}>Pricing</NavLinks>
                             </NavItem>
                             <NavBtn>
                                 <NavBtnLink to="signin"

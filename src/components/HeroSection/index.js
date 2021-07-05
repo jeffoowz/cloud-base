@@ -15,9 +15,8 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>The World's Greatest Trading App</HeroH1>
-                <HeroP> Sign up for a new account today and receive
-                    $250 in credit towards your next payment.
+                <HeroH1>The World's Greatest Cloud Storage Solution</HeroH1>
+                <HeroP> Sign up for a new account today and store your file securely..
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="about" onMouseEnter={onHover} smooth={true} duration={500} spy={true} exact="true"
